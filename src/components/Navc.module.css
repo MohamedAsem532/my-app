@@ -1,0 +1,16 @@
+.nav{
+    /* background-color: forestgreen; */
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+.ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}

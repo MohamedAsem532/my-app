@@ -1,10 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Navc from './components/Navc'
-
-
 // function App() {
 //   const [count, setCount] = useState(0)
 
@@ -39,10 +32,10 @@ import Navc from './components/Navc'
 import React from 'react'
 import Headerc from './components/Headerc';
 import Footerc from './components/Footerc';
+import Navc from './components/Navc';
 
 function App() {
   return (
-    // <div>App</div>
     <>
     <Navc/>
     <Headerc/>
