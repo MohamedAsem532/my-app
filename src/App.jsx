@@ -33,12 +33,27 @@ import React from 'react'
 import Headerc from './components/Headerc';
 import Footerc from './components/Footerc';
 import Navc from './components/Navc';
+import Homepage from './pages/Homepage';
+import { Routes, Route } from 'react-router';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Hcomponent from './components/Hcomponent';
+import Loginbootstrap from './components/LoginBootstrap';
 
 function App() {
   return (
     <>
     <Navc/>
     <Headerc/>
+    <Hcomponent/>
+    <Routes>
+      <Route path='/' element={<Homepage/>}/>
+      <Route path='/about' element={<About/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+      
+
+    </Routes>
+    <Loginbootstrap/>
     <Footerc/>
     
 

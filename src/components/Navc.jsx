@@ -11,10 +11,10 @@ const Navcomponent = styled.nav`
 
 
 /* ways for styling react components
-  1- Inline styling
-  2- Css stylesheet
-  3- css modules
-  4- styled components
+  1- Inline styling  --Done--
+  2- Css stylesheet --Done--
+  3- css modules --Done--
+  4- styled components --Done--
   5- scss or sass
   6- css framework (bootstrap, tailwind)
   7- react ui libraries (material ui , shadcn ui, chakra ui)
@@ -49,9 +49,9 @@ function Navc() {
   return (
     <Navcomponent className={styles.nav}>   {/*for css modules method*/}
      <ul className={styles.ul}>
-      <li ><a className={styles.link} href="#">Home page</a></li>
-      <li><a className={styles.link} href="#">About</a></li>
-      <li><a className={styles.link} href="#">Contact</a></li>
+      <li ><a className={styles.link} href="/">Home page</a></li>
+      <li><a className={styles.link} href="/about">About</a></li>
+      <li><a className={styles.link} href="/contact">Contact</a></li>
 
       </ul>
 

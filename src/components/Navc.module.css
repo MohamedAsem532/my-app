@@ -1,6 +1,7 @@
 .nav{
     /* background-color: forestgreen; */
-    padding: 20px;
+    padding: 20px ;
+    padding-bottom: 5px;
     text-align: center;
     font-size: 24px;
 }
@@ -13,4 +14,10 @@
     text-decoration: none;
     color: white;
     margin: 0 15px;
+}
+.link:active{
+    color: red;
+}
+.link:hover{
+    color: red;
 }
