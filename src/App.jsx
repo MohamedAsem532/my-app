@@ -38,7 +38,7 @@ import { Routes, Route } from 'react-router';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Hcomponent from './components/Hcomponent';
-import Loginbootstrap from './components/LoginBootstrap';
+import Loginbootstrap from './components/Loginbootstrap';
 
 function App() {
   return (
