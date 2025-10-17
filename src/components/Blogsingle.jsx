@@ -1,9 +1,16 @@
-import React from 'react'
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
-function Blogsingle() {
+function Blogsingle(props) {
   return (
-    <div>Blogsingle</div>
-  )
+    <Card >
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>{props.title}</Card.Title>
+    
+      </Card.Body>
+    </Card>
+  );
 }
 
-export default Blogsingle
+export default Blogsingle;
