@@ -38,22 +38,22 @@ import { Routes, Route } from 'react-router';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Hcomponent from './components/Hcomponent';
-import Loginbootstrap from './components/Loginbootstrap';
+import Blog from './components/Blog';
 
 function App() {
   return (
     <>
     <Navc/>
     <Headerc/>
-    <Hcomponent/>
+    {/* <Hcomponent/> */}
     <Routes>
       <Route path='/' element={<Homepage/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/contact' element={<Contact/>}/>
-      
+      <Route path='/blog' element={<Blog/>}/>
 
     </Routes>
-    <Loginbootstrap/>
+  
     <Footerc/>
     
 

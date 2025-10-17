@@ -52,6 +52,8 @@ function Navc() {
       <li ><a className={styles.link} href="/">Home page</a></li>
       <li><a className={styles.link} href="/about">About</a></li>
       <li><a className={styles.link} href="/contact">Contact</a></li>
+      <li><a className={styles.link} href="/blog">Blog</a></li>
+
 
       </ul>
 

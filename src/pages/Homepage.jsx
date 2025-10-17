@@ -8,6 +8,7 @@ function Homepage() {
     <Slider/>
     <HomepageComponent/>
     <About1/>
+   
     </>
   )
 }
